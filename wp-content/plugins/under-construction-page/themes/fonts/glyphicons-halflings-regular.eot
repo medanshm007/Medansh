@@ -8,17 +8,17 @@
     <meta name="description" content="" />
     <meta name="generator" content="Free UnderConstructionPage plugin for WordPress">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/bootstrap.min.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/common.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/plain_text/style.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/font-awesome.min.css?v=3.83" type="text/css">
-<link rel="icon" sizes="128x128" href="./wp-content/plugins/under-construction-page/themes/images/favicon.png" />
+    <link rel="stylesheet" href="./../css/bootstrap.min.css?v=3.83" type="text/css">
+<link rel="stylesheet" href="./../css/common.css?v=3.83" type="text/css">
+<link rel="stylesheet" href="./../plain_text/style.css?v=3.83" type="text/css">
+<link rel="stylesheet" href="./../css/font-awesome.min.css?v=3.83" type="text/css">
+<link rel="icon" sizes="128x128" href="./../images/favicon.png" />
   </head>
 
   <body>
     <header>
       <span id="logo-wrap">
-        <img src="./wp-content/plugins/under-construction-page/themes/plain_text/ucp-cog.png" alt="Site is Under Construction" title="Site is Under Construction" id="logo">
+        <img src="./../plain_text/ucp-cog.png" alt="Site is Under Construction" title="Site is Under Construction" id="logo">
       </span>
     </header>
 
@@ -43,6 +43,6 @@
       </div>
 
     </div>
-    <div id="login-button" class="loggedout"><a title="Log in to WordPress admin" href="./wp-login.php"><i class="fa fa-wordpress fa-2x" aria-hidden="true"></i></a></div>
+    <div id="login-button" class="loggedout"><a title="Log in to WordPress admin" href="./../../../../../wp-login.php"><i class="fa fa-wordpress fa-2x" aria-hidden="true"></i></a></div>
   </body>
 </html>
