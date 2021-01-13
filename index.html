@@ -1,48 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Medansh&#039;s Website</title>
-    <meta name="description" content="" />
-    <meta name="generator" content="Free UnderConstructionPage plugin for WordPress">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/bootstrap.min.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/common.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/plain_text/style.css?v=3.83" type="text/css">
-<link rel="stylesheet" href="./wp-content/plugins/under-construction-page/themes/css/font-awesome.min.css?v=3.83" type="text/css">
-<link rel="icon" sizes="128x128" href="./wp-content/plugins/under-construction-page/themes/images/favicon.png" />
-  </head>
 
-  <body>
-    <header>
-      <span id="logo-wrap">
-        <img src="./wp-content/plugins/under-construction-page/themes/plain_text/ucp-cog.png" alt="Site is Under Construction" title="Site is Under Construction" id="logo">
-      </span>
-    </header>
+<html lang="en-US">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="container">
+        <!-- SEO -->
 
-      <div class="row">
-        <div class="col-xs-12 col-md-12 col-lg-12">
-          <h1>Heyy</h1>
+<!-- og meta for facebook, googleplus -->
+<meta property="og:title" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:url" content="."/>
+<meta property="og:type" content="website" />
+<meta property="og:image" content="./wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/img/hardwork_banner_large.jpg"/>
+
+<!-- twitter meta -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:url" content="."/>
+<meta name="twitter:image" content="./wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/img/hardwork_banner_large.jpg"/>
+
+<link rel="stylesheet" href="./wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/style.css?v=3.9.6" type="text/css" media="all">
+<link rel="stylesheet" href="./wp-content/plugins/cmp-coming-soon-maintenance/css/animate.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700%7CMontserrat:400,700,400&amp;subset=latin-ext,cyrillic,latin,vietnamese,cyrillic-ext" rel="stylesheet">
+
+
+        <style>
+            body,input {font-family:'Montserrat', 'sans-serif';color:#ffffff;}
+                            .social-list {background-color: rgba(0,0,0,0.4);}
+                            a {color:#ffffff;}
+            h1,h2,h3,h4,h5,h6 {font-family:'Playfair Display', 'sans-serif';}
+            body {font-size:17px; letter-spacing: 0px; font-weight:400;; }
+            h1:not(.text-logo),h2, h3,h4,h5,h6,.text-logo-wrapper {font-size:2.35294117647em;letter-spacing: 0px; font-weight:700;font-style: normal;; }
+            h1 {font-weight:700;font-style: normal;;}
+        </style>
+
+        
+
+<style>
+    .wp-video {margin: 0 auto;}
+    .wp-video-shortcode {max-width: 100%;}
+    .grecaptcha-badge {display: none!important;}
+    .text-logo {display: inline-block;}
+    #gdpr-checkbox {-webkit-appearance: checkbox;-moz-appearance: checkbox;width: initial;height: initial;}
+    #counter.expired {display: none; }
+    input, button {
+        box-shadow: inset 0 0 0 0 !important;
+        -webkit-box-shadow: inset 0 0 0 0 !important;
+        -webkit-appearance: none;
+        outline: none;
+    }
+</style>
+
+
+
+
+    </head>
+
+
+    <body id="body">
+        <div id="background-wrapper">
+
+         <div id="background-image" class="image" style="background-image:url('./wp-content/plugins/cmp-coming-soon-maintenance/themes/hardwork/img/hardwork_banner_full.jpg')"></div><div class="background-overlay solid-color" style="background-color:#0a0a0a;opacity:0.4"></div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-offset-2 col-lg-8">
-          <p class="content">lol</p>
-        </div>
-      </div>
+        
+        <section class="section section-body">
+            <h2 class="cmp-title animated">This Website Was Created For Testing Purposes Only</h2><p>Visit my Other Website @ <a href="http://medansh.me/">www.medansh.me</a></p>
+         
+         </section>
+        
+    <!-- Fade in background image after load -->
+    <script>
+        window.addEventListener("load",function(event) {
+            init();
+        });
 
-      <div class="row" id="social">
-        <div class="col-xs-12 col-md-12 col-lg-12">
-          
-        </div>
-      </div>
+        function init(){
 
-    </div>
-    <div id="login-button" class="loggedout"><a title="Log in to WordPress admin" href="./wp-login.php"><i class="fa fa-wordpress fa-2x" aria-hidden="true"></i></a></div>
-  </body>
+            var image = document.getElementById('background-image');
+            var body = document.getElementById('body');
+            
+            if ( image === null ) {
+                image = document.getElementById('body');
+            } 
+
+            if ( image != null ) {
+                if ( image.className !== 'image-unsplash') {
+                    image.classList.add('loaded');
+                    body.classList.add('loaded');
+                }
+            }
+
+                    }
+    </script>
+
+    
+<!-- Build by CMP – Coming Soon Maintenance Plugin by NiteoThemes -->
+<!-- Visit plugin page https://wordpress.org/plugins/cmp-coming-soon-maintenance/ -->
+<!-- More CMP Themes on https://niteothemes.com -->
+    </body>
+
 </html>
